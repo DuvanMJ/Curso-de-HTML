@@ -1,0 +1,26 @@
+h1{
+    color: #cb997e;
+}
+
+p{
+    color: #6b705c;
+    background-color: #e9edc9;
+    padding: 15px;
+    border: 10px solid #b7b7a4;
+    /*Fijar valores individuales de margen, lo mismo se
+    aplica para padding, border*/
+    /*margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;*/
+
+    /*Atajo fijar valores top rigth bottom left*/
+    /*margin: 40px 10px 20px 10px;*/
+
+    /*margen automatica right y left*/
+    margin: auto 50px;
+
+    /*alinear texto*/
+    text-align: center;
+
+}
