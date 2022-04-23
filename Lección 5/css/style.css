@@ -1,0 +1,37 @@
+table{
+    width: 100%;
+}
+caption{
+    color: rgb(75, 59, 121);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    line-height: 80px;    
+}
+
+th{
+    color: rgb(246, 248, 248);
+    background-color: rgba(59, 59, 100, 0.8);
+
+}
+
+/*Seleccionar renglones pares => even ... impares => odd*/
+tr:nth-child(even){
+    background-color: rgb(218, 210, 226);
+}
+
+tr:nth-child(odd){
+    background-color: rgb(175, 172, 174);
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /*border-spacing: 10px;*/
+    padding: 5px;
+
+}
+td{
+    text-align: center;
+}
+
+
