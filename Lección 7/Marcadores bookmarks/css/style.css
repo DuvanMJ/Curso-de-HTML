@@ -1,0 +1,27 @@
+h1{
+    color: rgb(78, 22, 129);
+    text-align: center;
+}
+
+/*Identificador id*/
+#titulo{
+    color: blue;
+}
+
+h2{
+    color: rgb(90, 25, 25);
+}
+
+p{
+    color:rgb(230, 236, 236)
+
+}
+
+div{
+    border: 10px solid rgb(73, 8, 48);
+    background-color: rgb(223, 185, 207);
+    text-align: center;
+    margin: 10px 250px;
+    padding: 80px;
+    
+}

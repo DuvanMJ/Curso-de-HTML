@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.titulo{
+    margin: 15px;
+    text-align: center;
+    color: rgb(78, 22, 129);
+}
+
+h2{
+    color: rgb(90, 25, 25);
+}
+
+p{
+    color:rgb(230, 236, 236)
+
+}
+
+div{
+    border: 10px solid rgb(97, 22, 68);
+    background-color: rgb(214, 127, 178);
+    text-align: center;
+    margin: 15px 115px;
+    padding: 15px 115px;
+    
+}
+
+.secundario{
+    border: 10px solid rgb(25, 18, 66);
+    background-color: rgb(105, 126, 243);
+    text-align: center;
+    margin: 15px 115px;
+    padding: 15px 115px;
+}
