@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <!--action: donde se va a procesar la información
+    method: metodo para enviar en url es get y oculto es post
+    target: abrir nueva ventana (_blank) o en la misma (_self)
+    autocomplet: no se autocompleta valores-->
+    <form action="myserver" method="post" target="_self" autocomplete="off"> 
+        <fieldset>
+            <legend>Infomación personal</legend>
+            <label for="codigo">Código:</label>
+            <input type="text" id="codigo" readonly="true" disabled="true" value="1"><br/><br/>
+            <input type="hidden" id="sistema" name="sistema" value="sis">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Escriba su nombre" required="true" /><br /><br />
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" placeholder="Escriba su apellido" required="true"/><br /><br />
+            <label for="nombre">email:</label>
+            <input type="email" id="email" placeholder="Escriba su email" required="true"/><br /><br />
+            <label for="nombre">Edad:</label>
+            <input required="true" type="number" maxlength="2" max="100" id="edad" placeholder="Escriba su edad" /><br /><br />
+            <label for="">Género</label><br />
+            <input required="true" type="radio" id="masculino" name="genero" />
+            <label for="">Másculino</label><br />
+            <input required="true" type="radio" id="femenino" name="genero" />
+            <label for="">Femenino</label><br /><br />
+            <label for="">Gnénero de música favorita</label><br />
+            <input required="true" type="checkbox" />
+            <label for="">Rock</label><br />
+            <input required="true" type="checkbox" />
+            <label for="">Salsa</label><br />
+            <input required="true" type="checkbox" />
+            <label for="">Electrónica</label><br /><br />
+            <label for="">Marca de carro</label><br />
+            <select required="true" name="marca" id="marca">
+                <option value="renault">Renault</option>
+                <option value="chevrolet">Chevrolet</option>
+            </select>
+            <br /><br />
+            <label for="">Comentario</label><br />
+            <textarea required="true" name="comentario" id="comentario" cols="30" rows="10"></textarea><br /><br />
+            <input type="reset">
+            <input  type="submit" value="Enviar"/>
+            <input type="submit" value="Enviar sin verificar" formnovalidate="formnovalidate">
+        </fieldset>
+    </form>
+</body>
+
+</html>
